@@ -1,0 +1,48 @@
+body{
+    background-color: #e69429;
+    color: aliceblue;
+    padding: 50px;
+}
+input{
+    background-color: rgb(186, 255, 129);
+    color: rgb(26, 43, 78);
+}
+button{
+    background-color:rgb(178, 255, 127);
+    color: rgb(28, 59, 73);
+}
+input::placeholder{
+    color: rgb(1, 80, 11);
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+nav a {
+    text-decoration: none;
+}
+a{
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+a:hover{
+    color: chocolate;
+    transition: 0.6s;
+    font-size: 1.3rem;
+}
+.box {
+    width: 65%;
+    height: auto;
+    border-radius: 40px;
+    padding: 40px 60px;
+    background: rgba(255, 255, 255, 0.21);
+    box-shadow: 0 4px 30px rgba(59, 100, 21, 0.1);
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
+    box-shadow: 0px 4px 10px rgba(158, 25, 25, 0.25);
+    text-align: center;
+    border: 5px white dotted;
+    margin: 0 auto;
+    font-size: 1.2rem                                                                                                           ;
+}
